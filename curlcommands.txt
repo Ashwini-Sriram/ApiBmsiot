@@ -1,0 +1,8 @@
+curl -d "{ \"emailId\":  \"srinivas@tiramisumedia.com\", \"password\": \"srinivas\" }"  -H "Content-Type: application/json"  -X POST http://localhost:5000/users/login                 
+curl -H "Authorization: Bearer da5b45851f021420e0fa3ada5af540ec8cf30ba8e671e82167c4fecfebdf" http://localhost:5000/api/currentstatus
+curl -d "{\"status\":0}" -H "Authorization: Bearer da5b45851f021420e0fa3ada5af540ec8cf30ba8e671e82167c4fecfebdf" -H "Content-Type: application/json"  -X POST http://localhost:5000/api/currentstatus
+curl -d "{\"status\":1}" -H "Authorization: Bearer da5b45851f021420e0fa3ada5af540ec8cf30ba8e671e82167c4fecfebdf" -H "Content-Type: application/json"  -X POST http://localhost:5000/api/currentstatus
+
+curl -d "{ \"emailId\":  \"srinivas@tiramisumedia.com\", \"password\": \"srinivas\" }"  -H "Content-Type: application/json"  http://localhost:5000/users/login                 
+
+lUx6H4QJaZjm3xclRJdrD4NX2dVFwPX/oNfKg57oo4M=
